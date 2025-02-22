@@ -22,6 +22,7 @@ o	¿Qué datos necesitan ser compartidos entre múltiples funciones?
 sea usuarios en el sistema o del registro que se desee contar o almacenar para no hacer uso de muchos listas con almacenamiento de estos.
 
 o ¿Qué datos solo son relevantes dentro de una función específica?
+
 •	Estos pueden ser las comparaciones lógicas como lo es el if-else, el switch, el while o hasta el for ya que esta va depender de
 cada función y se va adaptar dependiendo de lo que el usuario quiera tan así como los parámetro para una función que seria un poco 
 lo mismo que lo antes mencionado .
@@ -35,10 +36,12 @@ código y separar varias funciones podría ayudar a evitar errores de compilaci�
 que para el lector es más cómodo el ver donde esta cada parte de cierto código.
 
 2.	¿Por qué es importante limitar el uso de variables globales?
+3.	
 o	En un código largo una función modificada poder mover la variable global lo que dificultaría encontrar los cambio que a esta se 
 le hagan también el uso de memoria ya que se sabe que estás siguen en función durante todo el programa y eso roba memoria sin necesidad.
 
-3.	¿Cómo se puede mejorar la legibilidad del código?
+4.	¿Cómo se puede mejorar la legibilidad del código?
+5.	
 o	AL momento de declarar variables utilizar un modo de lenguaje en el cual sea legible para todo el mundo y mucho menos si el código 
 será compartido o es en grupo en pocas palabras no inventar palabras o que solo nosotros las conozcamos y que esta refleje su propósito,
 otra cosa que puede ayudar es agregar comentarios con el // en el código así se hará mas fácil para el lector y hasta a nosotros mismo que
