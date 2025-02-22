@@ -9,3 +9,17 @@ o	¿Qué datos deben ser accesibles en todo el programa?
 o	¿Qué datos solo son necesarios dentro de una función específica?
 
 •	Unos de los datos que son solamente necesarios dentro de una función podrían ser aquellas que solo tiene relevancia dentro de un bloque de código en especifico o la que se utilice en alguna comparación lógica. 
+
+
+2. MODULARIZACION
+
+Definir Variables Locales y Globales
+o	¿Qué datos necesitan ser compartidos entre múltiples funciones?
+
+•	Las configuraciones generales como tasas de impuestos o valores que ya tienen un dato predeterminado o también las listas de ya
+sea usuarios en el sistema o del registro que se desee contar o almacenar para no hacer uso de muchos listas con almacenamiento de estos.
+
+o ¿Qué datos solo son relevantes dentro de una función específica?
+•	Estos pueden ser las comparaciones lógicas como lo es el if-else, el switch, el while o hasta el for ya que esta va depender de
+cada función y se va adaptar dependiendo de lo que el usuario quiera tan así como los parámetro para una función que seria un poco 
+lo mismo que lo antes mencionado .
