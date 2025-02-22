@@ -1,5 +1,7 @@
 # Laboratorio-3
 1. Análisis del Programa
+
+2. Las tareas que yo veo de manera reptetitivas a parte de toda la estructura el if-else tambien se usan  for para verificar o darle una leida por asi deceirlo a la lista de lso estudiantes y las calificaiones podriamos agregar una funcion que 
 *Variables Locales vs Variables Globales*
 
 o	¿Qué datos deben ser accesibles en todo el programa?
